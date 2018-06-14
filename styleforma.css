@@ -1,0 +1,59 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: green;
+
+}
+label
+{
+	color: white;
+	font-size: 18px;
+	font-family: Arial;
+}
+form{
+	
+	width: 500px;
+	/*height: 600px;*/
+	background-color: gray;
+	border: 1px solid black;
+	border-radius: 15px;
+	margin:20px auto;
+	padding: 30px;
+	box-sizing: border-box;
+	border-top-left-radius: 40px;
+	border-bottom-right-radius: 140px;
+}
+input{
+	width: 400px;
+	height: 30px;
+	border-radius: 5px ;
+	padding: 0 0 0 10px;
+	font-family: Arial;
+
+}
+input:focus
+{
+	outline: 0;
+	background-color: black;
+	color: white;
+}
+textarea{
+	min-width: 400px;
+	max-width: 400px;
+	min-height: 250px;
+	max-height: 250px;
+	border-radius: 5px;
+	box-sizing: border-box;
+	font-family: Arial;
+}
+textarea:focus{
+	outline: 0;
+	padding:15px;
+
+}
+.send
+{
+	background-color: blue;
+	color:white;
+
+}
