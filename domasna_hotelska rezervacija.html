@@ -1,0 +1,53 @@
+<!Doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hotel Reservation</title>
+	<link rel="stylesheet" type="text/css" href="style_hotelska rezervacija.css">
+</head>
+<body>
+	<div class="main">
+		<header>
+			<spam>Hotel<br/> 
+				  Reservation</spam>
+		</header>
+		<form method="POST">
+			<fieldset>
+				<label>Име:</label><br/>
+				<input type="text" name="ime" class="br1"><br/><br/>
+				<label>Презиме:</label><br/>
+				<input type="text" name="prezime" class="br1"><br/><br/>
+				<label>Телефон:</label><br/>
+				<input type="tel" name="telefon" class="br1"><br/><br/>
+				<textarea name="poraka" placeholder="Порака..." ></textarea>
+					
+				
+			</fieldset>
+			<fieldset>
+			<label>Датум на доаѓање:</label>
+			<input type="date" name="datum_doagjane"><br/><br/>
+			<label>Датум на заминување:</label>
+			<input type="date" name="datum_zaminuvane"><br/><br/>
+			<label>Дали сакате:</label>
+			<select name="kakva soba">
+				<option>Соба</option>
+				<option>Пансион</option>
+				<option>Полупансион</option>				
+			</select><br/><br/>
+			<label>Колку кревети да има:</label><br/>
+			<input type="radio" name="kreveti" value="edno">1<br/>
+			<input type="radio" name="kreveti" value="dvo">2<br/>
+			<input type="radio" name="kreveti" value="tro">3<br/>
+			<label>Дали сакате мини-бар:</label><br/>
+			<input type="radio" name=mini-bar value="da">Да<br/>
+			<input type="radio" name="mini-bar" value="ne">Не<br/>
+			<input type="submit" name="isprati" value="Submit" class="isprati">
+
+			
+				
+			</fieldset>
+		</form>
+	</div>
+
+</body>
+</html>

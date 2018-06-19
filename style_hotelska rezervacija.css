@@ -1,0 +1,76 @@
+body{
+	
+	padding:0;
+	margin: 0;
+	font-family: Arial;
+
+}
+.main
+{
+	background-color: yellow;
+	width: 900px;
+	height: 1200px;
+	margin: 0 auto;
+}
+header
+{
+	width: 500px;
+	height: 150px;
+	background-color: green;
+	margin:0 auto;
+	text-align: center;
+	
+	
+	
+}
+
+.main spam
+{
+	width: 150px;
+	text-align: center;
+	font-size: 60px;
+	
+}
+form
+{
+	width: 500px;
+	margin:50px auto;
+	padding: 50px;
+	box-sizing: border-box;
+	font-size: 20px;
+	text-align: center;
+}
+textarea
+{
+	min-width: 300px;
+	max-width: 300px;
+	min-height: 150px;
+	max-height: 150px;
+	padding:15px;
+	box-sizing: border-box;
+	color:red;
+
+
+}
+.br1
+{
+	width: 250px;
+}
+
+.isprati
+{
+	width: 300px;
+	color:green;
+	font-size: 18px;
+}
+input:focus,textarea:focus,select:focus
+{
+	background-color: black;
+	color: red;
+	font-size: 18px;
+}
+::placeholder
+{
+	font-size: 18px;
+
+}
