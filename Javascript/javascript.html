@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h2 id="title"></h2>
+	<div class="block"></div>
+	<div class="block"></div>
+	<div class="block"></div>
+		
+
+	<a href="#">Link</a>
+
+	<script type="text/javascript">
+		document.getElementById("title").innerHTML = "Hi guys";
+		document.getElementsByClassName("block")[0].innerHTML = "Zdravo";
+		console.log(document.getElementsByClassName("block"))
+		// document.getElementsByTagName("a")[0].attributes[0].value = "https://www.google.com";
+		document.getElementsByTagName("a")[0].setAttribute("href", "https://www.google.com");
+	</script>
+
+</body>
+</html>
